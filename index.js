@@ -1,3 +1,5 @@
+
+
 //select elements and assign them to let
 
 let newTask = document.getElementById('new-task')
@@ -19,4 +21,15 @@ let createNewtask = function(task){
 
     //pull the inputed text into label
     label.innerText = task;
-}
+
+    //identifies the value of the input type
+    checkbox.type = "checkbox";
+
+    //add items to the li
+    listItem.appendChild(checkbox);
+    listItem.appendChild(label);
+    
+    //everything put together
+    return listItem;
+};
+
