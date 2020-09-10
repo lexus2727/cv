@@ -58,6 +58,17 @@ h2 {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.delete {
+    float: right;
 }
 
 
